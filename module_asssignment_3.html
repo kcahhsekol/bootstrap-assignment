@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>module_assignment_3</title>
+        <style>
+            
+            .nav-item{
+                padding: 3px;
+            }
+            a{
+                text-decoration: none;
+            }
+            .dropdown{
+                position: relative;
+            }
+            .dropdown-item{
+                display: block;
+            }
+            .dropdown-menu {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                }
+
+                .dropdown-menu a:hover {
+                background-color: #ddd;
+                }
+
+                .dropdown:hover .dropdown-menu {
+                display: block;
+                }
+            .dropdown-toggle:hover,.dropdown-item:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="nav nav-pills" style="padding: 5px;margin-left: 100px;">
+            <li class="nav-item home">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item dropdown " style="margin-top: auto;margin-bottom: auto;margin-left: 6px;">
+                <a class="nav-item dropdown-toggle profile" data-bs-toggle="dropdown">Profile</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="elonmusk.html">Elon Musk</a></li>
+                    <li><a class="dropdown-item" href="sundarpichai.html">Sundar Pichai</a></li>
+                    <li><a class="dropdown-item" href="mukeshambani.html">Mukesh Ambani</a></li>
+                    <li><a class="dropdown-item" href="jeffbezoz.html">Jeff Bezoz</a></li>
+                </ul>
+                <li class="nav-item"><a href="contactus.html"class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link">Logout</a></li>
+            </li>
+            </ul>
+            <div class="container">
+                <h2>Welcome to Home screen</h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card" >
+                        <img src="elon musk.jpg" alt="image" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Elon Musk
+                            </h4>
+                        
+                                <p class="card-text">Elon Reeve Musk FRS (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a business magnate and investor. He is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation. With an estimated net worth of around $139 billion as of December 23, 2022, primarily from his ownership stakes in Tesla and SpaceX,[4][5] Musk is the second-wealthiest person in the world according to both the Bloomberg Billionaires Index and Forbes's real-time billionaires list.[6][7]</p>
+                                <a href="https://en.wikipedia.org/wiki/Elon_Musk" class="btn btn-primary" target="_blank">More about Elon</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="sundar pichai.jpg" alt="image" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Sundar Pichai
+                            </h4>
+                        
+                                <p class="card-text">Pichai Sundararajan (born June 10, 1972[3][4][5]), better known as Sundar Pichai (/ˈsʊndɑːr pɪˈtʃaɪ/), is an Indian-American business executive.[6] He is the chief executive officer (CEO) of Alphabet Inc. and its subsidiary Google.[7]
+
+                                    Born in Madurai, India,[4] Pichai earned his degree from IIT Kharagpur in metallurgical engineering. Moving to the United States, he attained an M.S. from Stanford University in materials science and engineering and further attained an MBA from the Wharton School of the University of Pennsylvania, where he was named a Siebel Scholar and a Palmer Scholar, respectively.[</p>
+                                <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" class="btn btn-primary" target="_blank">More about Sundar</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="mukesh ambani.jpg" alt="image" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Mukesh Ambani
+                            </h4>
+                        
+                                <p class="card-text">Mukesh Dhirubhai Ambani (born 19 April 1957) is an Indian billionaire businessman. He is the chairman and managing director of Reliance Industries Ltd. (RIL), a Fortune Global 500 company and India's most valuable company by market value.[4] According to Forbes and Bloomberg Billionaires Index, Ambani's net worth is estimated at US$93.8 billion as of 29 November 2022, making him the second richest person in Asia after Gautam Adani and the 8th richest in the world.</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani" class="btn btn-primary" target="_blank">More about Mukesh</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="jeffbezoz.jpg" alt="image" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Jeff Bezoz
+                            </h4>
+                        
+                                <p class="card-text">Jeffrey Preston Bezos (/ˈbeɪzoʊs/ BAY-zohss;[2] né Jorgensen; born January 12, 1964) is an American entrepreneur, media proprietor, investor, and commercial astronaut.[3][4] He is the founder, executive chairman, and former president and CEO of Amazon. With a net worth of US$114.5 billion as of November 2022, Bezos is the fourth-wealthiest person in the world and was the wealthiest from 2017 to 2021 according to both Bloomberg's Billionaires Index and Forbes.</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" class="btn btn-primary" target="_blank">More about Jeff</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+                
+    </body>
+</html>
